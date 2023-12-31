@@ -8,10 +8,10 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
-    console.log(nav);
   };
   return (
     <div className="text-white flex justify-between items-center max-w-[1240px] mx-auto px-4 h-24">
+      <h1 className="text-3xl w-full font-bold text-[#00df9a]">REACT.</h1>
       <ul className={`flex ${nav ? "" : "hidden"}`}>
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
