@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Typewriter } from "react-simple-typewriter";
 export const Hero = () => {
   return (
     <div className="text-white">
@@ -10,11 +10,24 @@ export const Hero = () => {
         <h1 className="md:text-6xl sm:text-5xl text-4xl font-bold md:py-6">
           Grow with Data
         </h1>
-        <div>
-          <p className="md:text-5xl sm:text-4xl text-xl ">
-            Fast , flexible finiancing for
+        <div className="flex justify-center items-center space-x-3">
+          <p className="md:text-4xl sm:text-3xl text-xl font-bold">
+            Fast , flexible financing for{" "}
           </p>
+          <div className="md:text-4xl sm:text-3xl text-xl font-semibold">
+            <Typewriter
+              words={["BTB", "BTC", "SAAS"]}
+              typeSpeed={100}
+              loop={Infinity}
+              deleteSpeed={100}
+              delaySpeed={2000}
+            />
+          </div>
         </div>
+        <p className="md:text-2xl text-xl font-bold text-gray-600 pt-2">
+          Monitor your data analytics to increase revenue for BTB , BTC & SAAS
+          platforms
+        </p>
       </div>
     </div>
   );
