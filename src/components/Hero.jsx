@@ -29,7 +29,7 @@ export const Hero = () => {
           platforms
         </p>
         <button
-          className="w-[200px] rounded-md bg-[#00df9a] text-white p-2 my-6 mx-auto py-3"
+          className="w-[200px] rounded-md bg-[#00df9a] text-black p-2 my-6 mx-auto py-3"
           onClick={() => console.log("Get Started Pressed")}
         >
           Get Started
