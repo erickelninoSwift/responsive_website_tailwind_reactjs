@@ -1,10 +1,11 @@
+import { Hero } from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="text-xl">Hello world</h1>
+      <Hero />
     </div>
   );
 }
