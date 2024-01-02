@@ -26,7 +26,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="lg:col-span-2 flex justify-between">
+      <div className="lg:col-span-2 mt-12 flex justify-between">
         <div>
           <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
